@@ -1,0 +1,30 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding-top: 575px;
+  padding-left: 8px;
+  height: 100vh;
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.banner p {
+  /* font-family: 'Kaushan Script', cursive; */
+  margin-top: 8px;
+  font-size: 24px;
+  color: white;
+  opacity: .8;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+@media only screen and (max-width: 428px) {
+  .banner{
+    padding-top: 150px;
+  }
+}

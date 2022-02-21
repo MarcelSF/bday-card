@@ -1,0 +1,49 @@
+/* --- Google Fonts --- */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:400,700");
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Parisienne&display=swap');
+
+/* --- Components design --- */
+@import url("components/card.css");
+@import url("components/navbar.css");
+@import url("components/banner.css");
+@import url("components/footer.css");
+@import url("components/button.css");
+/* --- Layouts --- */
+/*@import url("pages/campuses.css");*/
+
+
+/* --- Fonts & colors --- */
+body {
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+  margin: 0;
+  background-color: #F5D2B7 !important;
+  /* background-color: #F7E2A4 !important; */
+}
+
+h1, h2, h3 {
+  font-family: 'Kaushan Script', cursive;
+  color: #6B2D5C;
+}
+.text-center {
+  text-align: center;
+}
+
+.intro {
+  color: #4942a1;
+  font-size: 20px;
+}
+
+.signature {
+  font-family: 'Parisienne', cursive;
+  font-size: 36px;
+}
+
+.outro {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.outro p {
+  color: #114B5F;
+  font-size: 24px;
+}

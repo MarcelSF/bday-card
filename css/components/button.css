@@ -1,0 +1,12 @@
+.my-button {
+  text-decoration: none;
+  background-color: #EA1F4B;
+  color: white;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.my-button:visited {
+  color: white;
+}
